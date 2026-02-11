@@ -18,8 +18,8 @@ public class App {
     public static void main(String[] args) {
 
         // TODO: Update this with your CSV file path
-        File file = new File("data/your_dataset.csv");
-
+        File file = new File("StateData2020-CDC-Census.csv");
+        Scanner scanner = new Scanner(file);
         // TODO: Create an array of Data objects to store data
 
 
