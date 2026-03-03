@@ -66,12 +66,11 @@ UML_Diagram.png (or UML_Diagram.pdf)
 
 ## 🧩 Step 1 — Choose Your Dataset
 
-**Dataset Name:**  
-**Source / Link:**  
+**Dataset Name: State Data2020**  
+**Source / Link:[text](src/StateData2020-CDC-Census.csv)**  
 
 **What this dataset contains (2–3 sentences):**  
-____________________________________________________________________  
-____________________________________________________________________  
+Data on states in the United States of America
 
 ---
 
@@ -80,8 +79,7 @@ ____________________________________________________________________
 Your guiding question should be something you can answer using your dataset.
 
 **My guiding question:**  
-____________________________________________________________________  
-____________________________________________________________________  
+What states have the greatest drug overdose deaths total? What states have over # deaths? 
 
 Examples:
 
@@ -105,7 +103,7 @@ You must create a class that represents **one row** of your dataset.
 
 ### ✏ Include your class diagram
 
-
+![alt text](image-1.png)
 ---
 
 ## 📥 Step 4 — Read Your CSV File Using Scanner

@@ -13,18 +13,42 @@ public class Data {
 
     // TODO: Add at least 3 private attributes
     // Example:
-    // private String name;
-    // private int population;
-    // private double value;
+    private String state;
+    private int population;
+    private int drugDeaths;
 
 
     // TODO: Create a constructor that takes all attributes as parameters
 
+    public Data(String state, int population, int drugDeaths) {
+        this.state = state;
+        this.population = population;
+        this.drugDeaths = drugDeaths;
+    }
 
     // TODO: Add getters for attributes you need
+    public String getState() {
+        return state;
+    }
+
+    public int getPopulation() {
+        return population;
+    }
+
+    public int getDrugDeaths() {
+        return drugDeaths;
+    }
 
     // TODO: Add other data analysis methods
 
     // TODO: Override toString() to return a readable representation of your object
+    @Override
+    public String toString() {
+        return "Data{" +
+                "state='" + state + '\'' +
+                ", population=" + population +
+                ", drugDeaths=" + drugDeaths +
+                '}';
+    }
 
 }

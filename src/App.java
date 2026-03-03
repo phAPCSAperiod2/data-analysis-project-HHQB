@@ -22,6 +22,7 @@ public class App {
         Scanner scanner = new Scanner(file);
         // TODO: Create an array of Data objects to store data
 
+        
 
         // TODO: Read file using Scanner
         // - Skip header if needed
